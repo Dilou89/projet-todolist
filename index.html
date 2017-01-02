@@ -1,0 +1,77 @@
+<!DOCTYPE.html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/js" href="TodoList.js">
+	<script type="text/javascript"></script>
+		
+	<title>ToDoList </title>
+</head>
+<body onload="alert('Bonjour, bienvenue sur Todolist');">
+
+	<header> 
+	  
+		<div id="login">
+			<form method="post" action="traitement.php">
+   				<p>
+
+       			<label for="pseudo">Votre pseudo :</label>
+
+      			 <input type="text" name="pseudo" id="pseudo" /><br />
+
+       			<label for="pass">Votre mot de passe :</label>
+
+       			<input type="password" name="pass" id="pass" />       
+   				</p>
+				</form>
+		</div>
+
+	
+	
+	</header>	
+	
+	
+	<h1>Projet To Do List</h1>
+
+	<section>
+
+		<div class="floatLeft">
+			<h2>To Do</h2>
+			<button>Ajouter une tache</button>
+			<form class=tache method="post">
+			<p>
+				<fieldset>
+					<legend>Tache</legend>
+					<ul>
+						<li>
+							<label for=libele>Libele de la tache</label>
+							<input type="text" name="libele"><br>
+							<label for=description>Description de la tache</label>
+							<textarea type="text" name="description" 5 rows=""></textarea><br>
+							<label for=contributeur>Contributeur</label>
+							<input type="text" name="contributeur"><br>
+							<label for=delai>Delai</label>
+							<input type="text" name="delai"><br>
+							<input type="submit" value="enregistrer" />
+							
+
+						</li>
+					</ul>
+				</fieldset>
+			</p>	
+			</form> 
+			</div>
+		<div class="floatRight"><h2>Done</h2></div>
+	
+
+		<div class="Center">
+			<h2>Doing</h2>
+			</div>
+
+	</section>
+	<p></p>					
+
+</content>
+</body>
+</html>
